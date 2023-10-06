@@ -1,0 +1,65 @@
+
+    body {   
+      /* immmagine di sfondo e tipo  carattere del testo*/
+        background-image: url(background.jpg);
+        background-size: cover;
+        font-family: sans-serif;
+    }    
+
+    body>div{    /* div container */
+      width: 1000px;
+      height: 800px;
+      margin: auto;
+      text-align: center;
+      background-color:rgba(0, 0, 0, 0.5); 
+      margin-top: 50px;
+      border-radius: 20px;
+    }
+
+    header>img{       /* Intestazione */
+      margin-top: 80px;
+      width: 250px;
+    } 
+    header>h1{            /* Titolo 1 Intestazione */
+      color:rgb(9, 179, 9) ;
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+    nav{    /* barra verde sotto l'intestazione */
+      background-color: rgb(17, 230, 17);
+      border: 10px solid rgb(17, 230, 17);
+      width: 750px;
+      margin: auto;
+    }
+    main{  /* posizione e margine di tutto il testo contenuto nei 3 blocchi */
+      text-align: left;
+      margin-left: 115px;
+      color: rgba(204, 198, 198, 0.87);
+    }
+    main h2{  /* colore e posizione dei titoli dei 3 monopattini */
+      display: inline-block;
+      color: white;
+      margin-bottom: 2px;
+    }
+    #carica1{  /* barra stato carica del monopattino 1 */
+      background-color:rgba(223, 167, 13, 0.877) ;
+      border: 10px solid rgba(223, 167, 13, 0.877);
+      border-radius: 5px;
+      width: 250px;
+     }
+     #carica2{ /*barra stato carica del monopattino 2 */
+      background-color:rgba(15, 187, 24, 0.877) ;
+      border: 10px solid rgba(15, 187, 24, 0.877);
+      border-radius: 5px;
+      width:500px ;
+     }
+     #carica3{ /*barra stato carica del monopattino 3 */
+      background-color:rgba(189, 27, 6, 0.877) ;
+      border: 10px solid rgba(189, 27, 6, 0.877);
+      border-radius: 5px;
+      width:100px ;
+     }
+      
+    
+  
+   
